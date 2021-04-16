@@ -105,7 +105,7 @@ console.log(serazenaCisla); // [2, 3, 9, 10, 15, 22, 31, 43]
 /*
 Extra bonus
 
-reduce() výsledkem funkce retuce je jedna výstupní hodnota.
+reduce() výsledkem funkce reduce je jedna výstupní hodnota.
 Předaná funkce přijímá „accumulator“ a aktuální prvek pole. Postupně prochází celé pole a k proměnné accumulatoru přidává svůj výstup, po projetí všech prvků se stane accumulator výsledkem funkce.
 */
 const soucetCisel = cisla2.reduce((accumulator, cislo) => {
